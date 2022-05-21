@@ -8,9 +8,9 @@ The usage is Straightforward
 
 python3 sqhell.py 10.10.10.10
 
-Wait till exctraction finish and enjoy :)
+Wait till extraction finish and enjoy :)
 
-I made this tool to practice in sql injection and in python with response.
+I made this tool to practice in sql injection and python with response.
 
 Please do not use this tool just to get the flags, Try to learn something!
 
