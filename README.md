@@ -3,7 +3,7 @@ This tool can extract all 5 Flags of TryHackMe room SQHell
 
 https://tryhackme.com/room/sqhell
 
-![sqhell]([https://user-images.githubusercontent.com/105963749/169639174-b49c5b14-e208-4dde-ad77-6904a4953065.png](https://github.com/Staxtis/SQHell/blob/main/sqhell.png?raw=true))
+![sqhell](https://raw.githubusercontent.com/Staxtis/SQHell/main/sqhell.png)
 
 
 The usage is Straightforward
